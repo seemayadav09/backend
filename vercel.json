@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "online code compiler",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
